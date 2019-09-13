@@ -61,7 +61,7 @@ def get_filters():
             if day.title() not in day_potential:
                 raise ValueError('\nThat is not an acceptable input. Please try again.')
             if day.title() != 'All':
-                print('You have selected to filter by \'{}\'.'.format(day))
+                print('You have selected to filter by \'{}\'.'.format(day.title()))
             break
         except ValueError as e:
             print(e)

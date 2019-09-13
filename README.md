@@ -11,6 +11,7 @@ This project uses one python script file (bikeshare_2.py) and three data files: 
 
 ### Credits
 Credit is owed to the Udacity reviewing team for noting an exception error thrown when Washington was analyzed for certain data sets it was missing. 
+Credit owed to my Udacity reviewer for helping me understand proper commit language. 
 Other sources include: 
 
 StackOverflow for iloc help

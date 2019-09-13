@@ -1,5 +1,5 @@
 ### Date Created: 9/12/19
-9/12/19 Project and readme files created; slightly different branch version! 
+9/12/19 Project and readme files created. This is the master version.
 
 ### Project Title: US City Bike Data Analysis
 

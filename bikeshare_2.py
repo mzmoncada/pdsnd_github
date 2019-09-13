@@ -26,8 +26,8 @@ def get_filters():
             if not city:
                 raise ValueError('\nThat is an empty string.')
             if city not in CITY_DATA:
-                raise ValueError('\nThat city is not in our database.Please try again.')
-            print('You have selected to analyze \'{}\''.format(city))
+                raise ValueError('\nThat city is not in our database. Please try again.')
+            print('You have selected to analyze \'{}\'.'.format(city.title()))
             break
         except ValueError as e:
             print(e)
@@ -45,7 +45,7 @@ def get_filters():
             if month not in month_potential:
                 raise ValueError('\nThat is not an acceptable option. Please try again.')
             if month != 'all':
-                print('You have selected to filter by \'{}\'.'.format(month.upper()))
+                print('You have selected to filter by \'{}\'.'.format(month.title()))
             break
         except ValueError as e:
             print(e)
@@ -238,7 +238,7 @@ def view_raw_data(df):
 
     while True:
 
-        raw_data = input('Would you like to see 5 rows of data?\nPlease write yes to continue or anything else to exit.\n').lower()
+        raw_data = input('Would you like to see 5 rows of data?\nPlease write \'yes\' to continue or anything else to exit.\n').lower()
 
         if raw_data == 'yes':
 

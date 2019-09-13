@@ -1,14 +1,19 @@
 ### Date Created: 9/12/19
 9/12/19 Project and readme files created
 
-### US City Bike Data Analysis
+### Project Title: US City Bike Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+This project provides data on bike usage and trips within three major cities (New York City, Chicago, and Washington).  Users have the ability to choose a city to analyze and filter that city's data set by month and/or day of the week. Users are provided various statistics related to bike usage including most common start and stop station combinations, gender breakdowns of riders, and various rider age statistics.  
 
 ### Files used
-Include the files used
+This project uses one python script file (bikeshare_2.py) and three data files: 'chicago.csv', 'new_york_city.csv', and 'washington.csv'. There is also a "references.rtf" file describing various sources used in this project 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit is owed to the Udacity reviewing team for noting an exception error thrown when Washington was analyzed for certain data sets it was missing. 
+Other sources include: 
+
+StackOverflow for iloc help
+https://knowledge.udacity.com/questions/26261
+https://www.reddit.com/r/learnpython/comments/7s99rk/pandas_sort_by_most_frequent_value_combinations/
 

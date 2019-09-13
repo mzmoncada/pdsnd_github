@@ -1,8 +1,7 @@
 ### Date Created: 9/12/19
 9/12/19 Project and readme files created
 
-### Project Title
-Replace the Project Title
+### US City Bike Data Analysis
 
 ### Description
 Describe what your project is about and what it does

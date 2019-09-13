@@ -238,20 +238,18 @@ def view_raw_data(df):
 
     while True:
 
-        raw_data = input('Would you like to see 5 rows of data?\nPlease write \'yes\' to continue or anything else to exit.\n').lower()
+        raw_data = input('Would you like to see 5 rows of data?\nPlease write \'yes\' to continue or \'no\' to exit.\n').lower()
 
-        if raw_data == 'yes':
+        if raw_data.lower() == 'yes':
 
             print(df.iloc[index1:index2])
 
             index1 += 5
 
             index2 += 5
-
-        else:
-
+        elif raw_data.lower() == 'no':
+            print('\nThank you for participating. Good bye.')
             break
-
 
 def main():
     while True:

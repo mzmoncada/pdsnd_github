@@ -27,7 +27,7 @@ def get_filters():
                 raise ValueError('\nThat is an empty string.')
             if city not in CITY_DATA:
                 raise ValueError('\nThat city is not in our database. Please try again.')
-            print('You have selected to analyze \'{}\'.'.format(city.title()))
+            print('You have selected to view city \'{}\'.'.format(city.title()))
             break
         except ValueError as e:
             print(e)
